@@ -114,6 +114,8 @@ if ! shopt -oq posix; then
 fi
 
 #add by hzq
+
+alias hwindows='sudo  mount.cifs //172.16.31.133/D /home/gxnuhuang/windows_D/ -o username=gxnuhuang,password=h,uid=1000,gid=1000'
 alias hsamba='sudo /etc/init.d/smbd restart 
 	      sudo /etc/init.d/nmbd restart'
 # default PATH is /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
