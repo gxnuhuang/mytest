@@ -120,7 +120,13 @@ alias hsamba='sudo /etc/init.d/smbd restart
 	      sudo /etc/init.d/nmbd restart'
 # default PATH is /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
 #export PATH="$PATH:/home/gxnuhuang/ti-sdk-am335x-evm-05.06.00.00/linux-devkit/bin:/home/gxnuhuang/hbin"
-export PATH="/home/gxnuhuang/ti-sdk-am335x-evm-05.06.00.00/linux-devkit/bin:/home/gxnuhuang/hbin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games"
+#export PATH="/home/gxnuhuang/ti-sdk-am335x-evm-05.06.00.00/linux-devkit/bin:/home/gxnuhuang/hbin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/#games:/usr/local/games"
+
+#export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/gxnuhuang/ti-sdk-am335x-evm-05.06.00.00/linux-devkit/bin:/#home/gxnuhuang/hbin"
+
+#add for irtk2
+export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/gxnuhuang/tool-irtk/bin:/home/gxnuhuang/hbin"
+
 alias hcmd='
 		echo "-----------------------build uboot-am335x----------------------"
 		echo "make CROSS_COMPILE=arm-arago-linux-gnueabi ARCH=arm distclean"
@@ -131,6 +137,12 @@ alias hcmd='
 		echo "make ARCH=arm CROSS_COMPILE=arm-arago-linux-gnueabi- menuconfig"
 		echo "make ARCH=arm CROSS_COMPILE=arm-arago-linux-gnueabi- uImage"
 		echo "make ARCH=arm CROSS_COMPILE=arm-arago-linux-gnueabi- modules"
+		echo "---------------------------build---irtk2--------------------------"
+		echo "make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- mrproper"
+		echo "make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- am335x_evm_defconfig"
+		echo "make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- menuconfig"
+		echo "make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- uImage"
+		echo "make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- modules"	
 	   '
 alias huboot='make O=am335x CROSS_COMPILE=arm-arago-linux-gnueabi- ARCH=arm am335x_evm'
 alias hnfs='
