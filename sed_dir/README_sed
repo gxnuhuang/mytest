@@ -1,1 +1,4 @@
 添加Modify_sed.sh脚本，TW9912_CVBS_PAL_INTERLACE_120611.txt是从excel电子表格中复制出来的，实现将TW9912_CVBS_PAL_INTERLACE_120611.txt中内容更改为0x的形式
+
+添加common_sed记录sed的使用记录（功能）
+

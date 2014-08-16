@@ -1,0 +1,2 @@
+
+sed -i -e 's/^MODPROBE.*/MODPROBE := \/sbin\/modprobe.sh/g' Makefile #替换原来的MODPROBE := /sbin/modprobe为MODPROBE := /sbin/modprobe.sh 直接作用在Makefile文件中
