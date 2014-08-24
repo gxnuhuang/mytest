@@ -8,3 +8,4 @@ mytest
 添加make_modules来记录编译内核非源码目录的模块，测试解决insmod的unknown symbol in module or invalid parameter错误。（将mod1编译完之后，拷贝其生成的Module.symvers到mod2的目录下，再编译mod2即可）
 添加sofwrae_back.txt文件记录开发软件备份的情况
 添加wine_dir目录，记录wine软件的学习过程。wine_dir目录下的×,reg文件可解决linux下wine安装的软件字体模糊不清的问题，在终端输入regedit，打开regedit，将*.reg文件导入注册表就行了。
+添加shell_dir/search_string.sh，实现在文件2中查找是否包含有文件1的字符串
