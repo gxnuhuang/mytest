@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 #数组定义
 arry=( menuconfig uImage modules ) #数组下标从0开始
@@ -15,5 +15,8 @@ echo "${arry[1]}" #显示arry[1]的内容那
 #fi
 
 #case语句
+
+COMPARE_TIME='2014-06-29'
+echo "$(COMPARE_TIME)"
 
 
