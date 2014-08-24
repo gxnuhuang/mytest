@@ -1,0 +1,69 @@
+记录开发软件备份的情况
+
+将开发用到的软件，备份到了移动硬盘的code_backup/开发软件备份下面，目录树情况：
+├── linux_sofware
+│   ├── SDK_TI
+│   └── ubuntu虚拟机与ISO
+│       └── VMware_Workstation_wmb
+│           └── VMware_Workstation_wmb
+│               └── VMware-workstation注册机_keygen
+│                   └── VMware-workstation注册机_keygen
+└── windows_sofware
+    ├── chrome书签
+    ├── h画流程图软件
+    │   ├── diagramdesigner
+    │   ├── DiagramDesigner_1.23
+    │   │   └── Examples
+    │   └── eve
+    ├── Matlab软件备份
+    │   ├── java
+    │   │   ├── jre6
+    │   │   └── jrex64
+    │   ├── Matlab-R2014a-软件(破解版)
+    │   ├── Matlab编译器相关软件
+    │   │   ├── Mcc编译器无法使用
+    │   │   │   ├── MATLAB R2014a Compiler
+    │   │   │   └── serial
+    │   │   │       └── serial
+    │   │   │           ├── java
+    │   │   │           │   └── jar
+    │   │   │           ├── Matlab32
+    │   │   │           │   └── bin
+    │   │   │           │       └── win32
+    │   │   │           └── Matlab64
+    │   │   │               └── bin
+    │   │   │                   └── win64
+    │   │   │                       └── backup
+    │   │   ├── Windows-SDK7
+    │   │   └── 重复的目录名称
+    │   │       └── attachment_363196_20080131
+    │   │           └── bugreport
+    │   └── Matlab获取安卓传感器软件
+    ├── OA软件
+    ├── PDF标签生成软件
+    │   └── PDFPatcher.0.3.4.101
+    ├── q驱动精灵
+    ├── Source insight
+    ├── synergy鼠标共享软件
+    │   ├── synergy-1.4.16-r1969-Windows-x64 (1)
+    │   └── synergy_v1410x86
+    ├── usb网卡驱动
+    │   ├── Linux
+    │   │   └── 2011_0719_RT3070_RT3370_RT5370_RT5372_Linux_STA_V2.5.0.3_DPO
+    │   │       ├── chips
+    │   │       ├── common
+    │   │       ├── include
+    │   │       │   ├── chip
+    │   │       │   ├── iface
+    │   │       │   └── os
+    │   │       ├── os
+    │   │       │   └── linux
+    │   │       ├── sta
+    │   │       └── tools
+    │   ├── Mac OSX
+    │   ├── WIN8
+    │   ├── 旧版本
+    │   └── 用户手册
+    └── winhex
+
+

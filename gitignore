@@ -41,4 +41,7 @@ Module.symvers
 include/config/kernel.release
 include/generated/compile.h
 include/generated/utsrelease.h
-
+*.builtin
+*.order
+*.orig
+*.mod.c

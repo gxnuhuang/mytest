@@ -1,8 +1,8 @@
 #!/bin/bash
 
 #数组定义
-arry=( menuconfig uImage modules ) #数组下标从0开始
-echo "${arry[1]}" #显示arry[1]的内容那
+#arry=( menuconfig uImage modules ) #数组下标从0开始
+#echo "${arry[1]}" #显示arry[1]的内容那
 
 #if 条件判断
 #if [ $1 == "?" ]
@@ -18,5 +18,21 @@ echo "${arry[1]}" #显示arry[1]的内容那
 
 COMPARE_TIME='2014-06-29'
 echo "$(COMPARE_TIME)"
+
+
+#文件判断
+
+if [ -d "wpa_supplicant" ]
+then
+	echo "exits"
+else
+	echo "no etxi and creat"
+	if [ -f "file" ] 
+	then
+		echo "file exits and rm"
+		rm file
+	fi
+	mkdir -p wpa_supplicant
+fi
 
 

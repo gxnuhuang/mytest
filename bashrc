@@ -153,3 +153,5 @@ alias hnfs='
 alias hcommd='gedit /data_h/commom_cmd/com_cmd.txt'
 #end by hza
 QMAKESPEC=/home/gxnuhuang/ti-sdk-am335x-evm-05.06.00.00/linux-devkit/arm-arago-linux-gnueabi/usr/share/qtopia/mkspecs/linux-g++;export QMAKESPEC; # ADDED BY INSTALLER - DO NOT EDIT OR DELETE THIS COMMENT - AB1C36D0-2B62-930A-B1CF-1B15CF69BE47 4E0F9702-85E7-E8F2-252A-A4CC926009BC
+
+QMAKESPEC=/home/gxnuhuang/ti-sdk-am335x-evm-05.06.00.00/linux-devkit/arm-arago-linux-gnueabi/usr/share/qtopia/mkspecs/linux-g++;export QMAKESPEC; # ADDED BY INSTALLER - DO NOT EDIT OR DELETE THIS COMMENT - AB1C36D0-2B62-930A-B1CF-1B15CF69BE47 A33C1DD6-BFAF-9A70-40A5-2B408C87CA92
