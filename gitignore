@@ -45,3 +45,4 @@ include/generated/utsrelease.h
 *.order
 *.orig
 *.mod.c
+*.md
