@@ -10,3 +10,4 @@ mytest
 添加wine_dir目录，记录wine软件的学习过程。wine_dir目录下的×,reg文件可解决linux下wine安装的软件字体模糊不清的问题，在终端输入regedit，打开regedit，将*.reg文件导入注册表就行了。
 添加shell_dir/search_string.sh，实现在文件2中查找是否包含有文件1的字符串
 添加regular_express文件夹记录正规表示法学习，grep sed  awk 
+添加记录chrome浏览器的书签 chrome_book
